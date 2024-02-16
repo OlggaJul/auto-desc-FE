@@ -1,8 +1,8 @@
 .fast_contact {
   position: fixed;
   z-index: 2;
-  bottom: 4rem;
-  right: 3.2rem;
+  bottom: 2.4rem;
+  right: 2.4rem;
   display: grid;
   grid-gap: 1rem;
 }
