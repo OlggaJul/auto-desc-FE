@@ -1,0 +1,38 @@
+.fast_contact {
+  position: fixed;
+  z-index: 2;
+  bottom: 4rem;
+  right: 3.2rem;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.fast_contact__btn {
+  width: 4.8rem;
+  height: 4.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: 0.8rem;
+  color: var(--font-color-white);
+  transition: opacity .3s;
+
+  & > svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &.orange_contact {
+    background-color: #FFA53C;
+  }
+
+  &.green_contact {
+    background-color: #2BB826;
+  }
+}
