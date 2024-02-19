@@ -210,7 +210,8 @@ input {
 .intro__blur_item {
   filter: drop-shadow(0 4px 4px #00000040);
   background-color: #71717161;
-  width: 100%;
+  flex-shrink: 0;
+  width: 5.2rem;
   height: 100%;
   transition: background-color .1s;
   box-shadow: inset -3px 4px 13px #00000080;
