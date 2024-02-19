@@ -69,7 +69,6 @@
     & > svg {
         width: 1rem;
         height: 1rem;
-        transition: .25s;
     }
 
     &:hover {
